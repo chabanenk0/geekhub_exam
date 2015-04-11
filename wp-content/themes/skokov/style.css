@@ -1,0 +1,210 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 13px Arial, sans-serif;
+  background: #fff;
+  color: #396375; }
+
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none; }
+
+select, input, textarea {
+  font-size: 12px;
+  vertical-align: middle; }
+
+textarea {
+  vertical-align: top; }
+
+:focus {
+  outline: none; }
+
+input[type=submit] {
+  cursor: pointer; }
+
+img, fieldset {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:link, a:visited {
+  font: 12px Tahoma, sans-serif;
+  color: #000;
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r {
+  float: right !important; }
+
+.float-l {
+  float: left !important; }
+
+.no-float {
+  float: none !important; }
+
+.no-border {
+  border: 0 !important; }
+
+.no-bg {
+  background: none !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-display {
+  display: none !important; }
+
+.display {
+  display: block !important; }
+
+.inline {
+  display: inline !important; }
+
+.overflow {
+  overflow: hidden !important; }
+
+.align-r {
+  text-align: right !important; }
+
+.align-l {
+  text-align: left !important; }
+
+.align-c {
+  text-align: center !important; }
+
+.clear {
+  clear: both; }
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        HEADER      --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+  width: 1635px;
+  background-color: #f6f6f6;
+  margin: 15px; }
+
+.header {
+  height: 310px; }
+
+.logo {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-left: 118px;
+  margin-top: 22px;
+  width: 300px; }
+
+.menu {
+  float: right;
+  margin-top: 50px;
+  margin-right: 120px; }
+  .menu li {
+    display: block;
+    float: left;
+    margin-left: 64px;
+    padding: 25px 9px; }
+    .menu li a {
+      font-size: 16px;
+      color: #000;
+      text-decoration: none; }
+  .menu li.active {
+    background-color: #ffea00; }
+
+.top-image {
+  clear: both;
+  position: relative;
+  margin-top: 160px;
+  width: 100%;
+  height: 150px;
+  background: URL("/wp-content/themes/skokov/img/header_bg.gif") no-repeat; }
+  .top-image .category {
+    position: absolute;
+    box-sizing: content-box;
+    margin-left: 118px;
+    margin-top: 40px;
+    padding: 22px;
+    min-width: 320px;
+    background-color: #424146;
+    color: #ffea00; }
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        CONTENT     --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content {
+  float: left;
+  overflow: hidden;
+  width: 1161px; }
+  .content .post-content {
+    width: 548px;
+    min-height: 300px;
+    margin: 15px;
+    background-color: #ffea00;
+    float: left; }
+    .content .post-content .quote {
+      font-size: 21px;
+      font-color: #000;
+      font-style: italic; }
+    .content .post-content img {
+      width: 100%; }
+    .content .post-content h2 {
+      font-size: 16px;
+      color: #000;
+      margin: 26px; }
+      .content .post-content h2 a {
+        text-decoration: none;
+        text-transform: uppercase; }
+    .content .post-content p {
+      margin: 26px;
+      color: #5e5e5e; }
+
+.post-information {
+  padding: 26px; }
+  .post-information .likes {
+    padding-left: 20px;
+    background: URL("/wp-content/themes/skokov/img/heart_icon.gif") no-repeat 0px 1px; }
+  .post-information .author, .post-information .comments, .post-information .date {
+    float: right; }
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        SIDEBAR     --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+  float: left; }
+  .sidebar div {
+    margin: 33px 0px;
+    background-color: #424147;
+    padding: 35px 33px;
+    width: 406px; }
+  .sidebar .popular img {
+    max-width: 100px;
+    max-height: 72px; }
+  .sidebar h3 {
+    color: #ffea00;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .sidebar a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px; }
+  .sidebar li {
+    padding-left: 47px; }

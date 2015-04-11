@@ -1,0 +1,148 @@
+@import "css/reset.scss";
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        HEADER      --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.wrapper {
+  width: 1635px;
+  background-color:#f6f6f6;
+  margin: 15px;
+}
+
+.header {
+  height: 310px;
+}
+.logo {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-left: 118px;
+  margin-top: 22px;
+  width: 300px;
+
+}
+
+.menu {
+  float:right;
+  margin-top: 50px;
+  margin-right: 120px;
+  li {
+    display: block;
+    float: left;
+    margin-left: 64px;
+    padding: 25px 9px;
+    a {
+      font-size: 16px;
+      color: #000;
+      text-decoration: none;
+    }
+  }
+  li.active {
+    background-color: #ffea00;
+  }
+}
+
+.top-image {
+  clear: both;
+  position: relative;
+  margin-top: 160px;
+  width: 100%;
+  height: 150px;
+  background: URL("/wp-content/themes/skokov/img/header_bg.gif") no-repeat;
+  .category {
+    position: absolute;
+    box-sizing: content-box;
+    margin-left: 118px;
+    margin-top: 40px;
+    padding: 22px;
+    min-width: 320px;
+    background-color: #424146;
+    color: #ffea00;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        CONTENT     --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.content {
+  float: left;
+  overflow: hidden;
+  width: 1161px;
+
+  .post-content {
+    width: 548px;
+    min-height: 300px;
+    margin: 15px;
+    background-color: #ffea00;
+    float: left;
+    .quote {
+      font-size: 21px;
+      font-color: #000;
+      font-style: italic;
+    }
+    img {
+      width: 100%;
+    }
+    h2 {
+      font-size: 16px;
+      color: #000;
+      margin: 26px;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+    p {
+      margin: 26px;
+      color: #5e5e5e;
+    }
+  }
+}
+
+.post-information {
+  padding: 26px;
+  .likes {
+    padding-left: 20px;
+    background: URL("/wp-content/themes/skokov/img/heart_icon.gif") no-repeat 0px 1px ;
+  }
+  .author, .comments, .date {
+    float: right;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------        SIDEBAR     --------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.sidebar {
+  float: left;
+  div {
+    margin: 33px 0px;
+    background-color:
+    #424147;
+    padding: 35px 33px;
+    width: 406px;
+  }
+  .popular {
+    img {
+      max-width: 100px;
+      max-height: 72px;
+    }
+  }
+  h3 {
+    color: #ffea00;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  li {
+    padding-left: 47px;
+  }
+}
